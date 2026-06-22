@@ -9,7 +9,7 @@ app = FastAPI(
     description="Summarises radiology findings into a concise clinical impression."
 )
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "model")
+MODEL_PATH = "graceogungbesan1809-debug/flan-t5-radiology"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model     = AutoModelForSeq2SeqLM.from_pretrained(MODEL_PATH)
