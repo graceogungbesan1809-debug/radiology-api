@@ -47,7 +47,7 @@ def summarise(request: FindingsRequest):
 
     output_ids = model.generate(
         **inputs,
-        max_new_tokens       = 32,
+        max_new_tokens       = 64,
         min_new_tokens       = 3,
         length_penalty       = 2.0,
         num_beams            = 4,
