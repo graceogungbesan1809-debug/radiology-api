@@ -1,8 +1,8 @@
-fastapi==0.104.1
-uvicorn==0.24.0
+fastapi
+uvicorn
 torch==2.1.0
 transformers==4.44.0
-sentencepiece==0.1.99
-pydantic==2.5.0
-huggingface_hub==0.19.4
-accelerate==0.24.1
+sentencepiece
+pydantic
+huggingface_hub>=0.23.2
+accelerate
